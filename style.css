@@ -1,4 +1,40 @@
 * {
     font-family: 'Manrope', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #1C2135;
+}
+
+header nav {
+    padding: 1%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+
+li a {
+    margin-top: 1%;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+    margin-top: 20%;
+    margin-right: 2%;
+}
+
+.hero h1 {
+    color: #E7E9EE;
+    text-align: right;
+    font-size: 5.5rem;
+
 }
